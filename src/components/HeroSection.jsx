@@ -4,14 +4,14 @@ export default function HeaderLogin() {
   console.log("berhasil");
   return (
     <>
-      <div className="hero-container flex flex-col mx-auto w-6xl px-4 xl:px-0 2xl:w-7xl 2xl:mx-auto">
-        <div className="relative flex flex-col text-center text-white my-14 py-14 px-6 md:px-12 gap-4">
+      <div className="hero-container flex flex-col mx-auto px-4 xl:px-0 2xl:w-7xl 2xl:mx-auto">
+        <div className="relative flex flex-col text-center text-white my-14 py-14 px-4 md:px-12 gap-4">
           <div
             className="overlay absolute inset-0 bg-cover bg-center brightness-25 -z-10 rounded-lg"
             style={{ backgroundImage: `url(${HeroImage})` }}
           ></div>
           <div className="flex flex-col md:px-24 gap-6">
-            <h1 className="text-2xl font-bold lg:text-5xl xl:text-3xl">
+            <h1 className="text-2xl font-bold lg:text-3xl">
               Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video
               Interaktif!
             </h1>
