@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <div className="home-container flex flex-col gap-4 border border-red-600">
+      <div className="home-container flex flex-col gap-4">
         <HeroSection />
         <div className="product-section flex flex-col px-4 gap-4 xl:w-7xl xl:mx-auto">
           <h1 className="text-2xl font-medium md:text-3xl">
